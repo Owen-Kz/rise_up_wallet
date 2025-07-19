@@ -21,7 +21,7 @@ class PaymentGatewaySeeder extends Seeder
         $payment_gateways_code = PaymentGateway::max('code')+5;
 
         $payment_gateways = array(
-            array('id' => $payment_gateways_id,'slug' => 'add-money','code' => $payment_gateways_code,'type' => 'AUTOMATIC','name' => 'Paystack','title' => 'Paystack Gateway','alias' => 'paystack','image' => 'seeder/paystack.webp','credentials' => '[{"label":"Secret Key","placeholder":"Enter Secret Key","name":"secret-key","value":"sk_test_d094bb8359027eab06ca8ea9a3b757e47e35684b"},{"label":"Public Key","placeholder":"Enter Public Key","name":"public-key","value":"pk_test_64a32791e5d7acc43acafb3646a1b9ce898519ea"}]','supported_currencies' => '["NGN","USD","GHS","ZAR","KES"]','crypto' => '0','desc' => NULL,'input_fields' => NULL,'status' => '1','last_edit_by' => '1','created_at' => now(),'updated_at' => now(),'env' => 'SANDBOX')
+            array('id' => $payment_gateways_id,'slug' => 'add-money','code' => $payment_gateways_code,'type' => 'AUTOMATIC','name' => 'Paystack','title' => 'Paystack Gateway','alias' => 'paystack','image' => 'seeder/paystack.webp','credentials' => '[{"label":"Secret Key","placeholder":"Enter Secret Key","name":"secret-key","value":"sk_3b757e47e35684b"},{"label":"Public Key","placeholder":"Enter Public Key","name":"public-key","value":"pk_test_64a32791e5d7acc43acafb3646a1b9ce898519ea"}]','supported_currencies' => '["NGN","USD","GHS","ZAR","KES"]','crypto' => '0','desc' => NULL,'input_fields' => NULL,'status' => '1','last_edit_by' => '1','created_at' => now(),'updated_at' => now(),'env' => 'SANDBOX')
         );
         PaymentGateway::insert($payment_gateways);
 
