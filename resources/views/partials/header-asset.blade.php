@@ -19,7 +19,7 @@
 <!-- nice select css -->
 <link rel="stylesheet" href="{{ asset('public/frontend/css/nice-select.css') }}">
 <!-- Popup  -->
-<link rel="stylesheet" href="{{ asset('backend/library/popup/magnific-popup.css') }}">
+<link rel="stylesheet" href="{{ asset('public/backend/library/popup/magnific-popup.css') }}">
 <!-- Select 2 CSS -->
 <link rel="stylesheet" href="{{ asset('public/frontend/css/select2.css') }}">
 <!-- file holder css -->
