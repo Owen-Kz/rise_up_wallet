@@ -135,7 +135,7 @@
                 </ul>
             </div>
         </div>
-        <div class="sidebar-doc-box bg-overlay-base bg_img" data-background="{{ asset("public/frontend/images/element/sidebar.webp") }}">
+        <div class="sidebar-doc-box bg-overlay-base bg_img" data-background="{{ asset("frontend/images/element/sidebar.webp") }}">
             <div class="sidebar-doc-icon">
                 <i class="las la-headset"></i>
             </div>

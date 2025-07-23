@@ -13,7 +13,7 @@
                     <div class="row align-items-center justify-content-center">
                         <div class="col-xl-6 col-lg-6 mb-30 account-img">
                            <div class="account-item-img">
-                              <img src="{{  get_image($auth_text->value->image ?? "","site-section") ?? asset('public/frontend/images/element/account-img.webp') }}" alt="img">                                          
+                              <img src="{{  get_image($auth_text->value->image ?? "","site-section") ?? asset('frontend/images/element/account-img.webp') }}" alt="img">                                          
                            </div>
                         </div>
                         <div class="col-xl-6 col-lg-6 col-md-10"> 

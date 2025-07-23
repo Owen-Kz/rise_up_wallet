@@ -48,7 +48,7 @@
 
 @include('partials.footer-asset')
 @include('user.partials.push-notification')
-<script src="{{ asset('public/frontend/js/apexcharts.js') }}"></script> 
+<script src="{{ asset('frontend/js/apexcharts.js') }}"></script> 
 @stack("script") 
 <script>  
   var chart1 = $('#chart1');

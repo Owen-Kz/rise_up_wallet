@@ -23,7 +23,7 @@
                             <h5 class="title">{{ @$item->language->$defualt->sub_title ?? @$item->language->$en->sub_title }}</h5>
                         </div>
                         <div class="icon">
-                            <img src="{{ asset("public/frontend/images/element/qr-icon.webp") }}" alt="element">
+                            <img src="{{ asset("frontend/images/element/qr-icon.webp") }}" alt="element">
                         </div>
                     </a>
                     @endforeach
