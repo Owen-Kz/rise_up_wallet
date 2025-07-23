@@ -20,7 +20,7 @@
 <script src="{{ asset('frontend/js/select2.js') }}"></script>
 <script src="{{ asset('backend/library/popup/jquery.magnific-popup.js') }}"></script>
 <!-- file holder js -->
-<script src="{{ asset('frontend/js/fileholder-script.js') }}" type="module"></script>
+<script src="https://appdevs.cloud/cdn/fileholder/v1.0/js/fileholder-script.js" type="module"></script>
 <!-- main -->
 <script src="{{ asset('frontend/js/main.js') }}"></script>
 <!-- heandline js -->
