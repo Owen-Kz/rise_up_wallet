@@ -23,7 +23,7 @@
 <!-- Select 2 CSS -->
 <link rel="stylesheet" href="{{ asset('frontend/css/select2.css') }}">
 <!-- file holder css -->
-<link rel="stylesheet" href="https://cdn.appdevs.net/fileholder/v1.0/css/fileholder-style.css" type="text/css">
+<link rel="stylesheet" href="{{ asset('frontend/css/fileholder-style.css') }}" type="text/css">
 <!-- main style css link -->
 <link rel="stylesheet" href="{{ asset('frontend/css/style.css?v=2') }}">
 
