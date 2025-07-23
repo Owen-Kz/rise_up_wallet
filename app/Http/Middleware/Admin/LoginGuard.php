@@ -28,7 +28,7 @@ class LoginGuard
                     return redirect(route('user.dashboard'));
                 }
             }
-        }
+        } 
 
         return $next($request);
     }
