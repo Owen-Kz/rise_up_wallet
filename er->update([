@@ -8,7 +8,7 @@
     [34mcreated_at[39m: "[32m2025-07-19 14:50:15[39m",
     [34mid[39m: [35m1[39m,
     +[1mfullname[22m: "[32mAdmin User[39m",
-    +[1muserImage[22m: "[32mhttp://localhost/walletium/public/backend/images/default/profile-default.webp[39m",
+    +[1muserImage[22m: "[32mhttp://localhost/rise_up_wallet/backend/images/default/profile-default.webp[39m",
     +[1mstringStatus[22m: {#6736
       +"[1mclass[22m": "[32mbadge badge--danger[39m",
       +"[1mvalue[22m": "[32mBanned[39m",

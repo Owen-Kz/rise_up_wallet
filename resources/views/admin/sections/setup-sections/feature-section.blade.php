@@ -5,7 +5,7 @@
     $languages_for_js_use = $languages->toJson();
 @endphp
 @push('css')
-    <link rel="stylesheet" href="{{ asset('public/backend/css/fontawesome-iconpicker.min.css') }}"> 
+    <link rel="stylesheet" href="{{ asset('backend/css/fontawesome-iconpicker.min.css') }}"> 
 @endpush
 @section('page-title')
     @include('admin.components.page-title',['title' => __($page_title)])
@@ -183,7 +183,7 @@
 @endsection
 
 @push('script')
-    <script src="{{ asset('public/backend/js/fontawesome-iconpicker.js') }}"></script>
+    <script src="{{ asset('backend/js/fontawesome-iconpicker.js') }}"></script>
 
     <script>
         // icon picker
